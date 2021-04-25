@@ -1,0 +1,14 @@
+package-lock.json
+node_modules
+.env
+credentials.json
+token.json
+sounds
+ignore
+scripts.sqlite
+ws
+.vscode
+startup.txt
+test.mp3
+logo
+ignored
