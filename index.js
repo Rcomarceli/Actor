@@ -1,10 +1,35 @@
-require('dotenv').config(); //uses .env file for token instead of putting it directly in the code
+const dotenv = require('dotenv').config(); //uses .env file for token instead of putting it directly in the code
 const fs = require('fs'); 
 const Discord = require('discord.js');
 const { listMsgs } = require('./util/scriptsList');
 const { actorCollections } = require('./util/turnOrder');
+const reader = require('readline-sync');
 
+//check for configuration files, if not found, prompt for creation 
+if (dotenv.error) {
 
+  if (reader.keyInYN('no .env file found! create env file? (Y/N)')) {
+    const envArray = [];
+    envArray.push(reader.question('Enter Bot Token:'));
+    envArray.push(reader.question('Enter Desired Prefix for commands:'));
+    envArray.push(reader.question('Enter your discord guild member ID:'));
+    envArray.push(reader.question('Enter Bot Client ID:'));
+    envArray.push(reader.question('Enter Bot Client Secret:'));
+    console.log ('creating env file...');
+    let stream = fs.createWriteStream('.env' , {flags:'a'});
+    envArray.forEach(element => stream.write(element + '\r\n'));
+    // for (const element of envArray) {
+    //   fs.appendFile('.env', `${element}\r\n`, function (err) {
+    //     if (err) throw err;
+    //     console.log(Saved!);
+    //   })
+    // }
+    stream.end();
+  }
+  else {
+    return console.log('User input "no". cannot login without .env file. exiting...')
+  }
+}
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection(); 
