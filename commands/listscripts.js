@@ -13,8 +13,8 @@ module.exports = {
 		};
 		
 		if (args.length == 0) {
-			msg.channel.send("enter in tags if you want a select list of scripts! (and to find usable tags, enter !listtags)!");
-			return 
+			scripts = await db.Script.findAll();
+			return new ScriptsList(scripts, msg);
 		}
 
 
