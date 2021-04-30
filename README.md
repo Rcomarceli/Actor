@@ -25,6 +25,7 @@ Once everyone is done with the read, we can simply rinse and repeat, and use the
 ## Cheatsheet of commands
 **Readying Up**
 `!ready` - puts you as "ready". bot decides turn order when everyone is readies up
+
 `!itstime` - instantly decides turn order even if some people aren't ready
 `!skip` - skips your turn if you're just sitting out this round
 `!readylist` - shows who is currently ready
