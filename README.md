@@ -1,5 +1,5 @@
 # actor
-This is a bot designed to assist voice acting communities in facilitating voice acting sessions. It allows for:
+This is a bot designed to assist voice acting communities in facilitating voice acting sessions. Handles voice acting scripts as well! It allows for:
 - Facilitating Voice Acting sessions by keeping track of who is ready, and immediately signalling once everyone is ready to start
 - Fetching acting scripts on a google drive, either by random or in a convenient list that can be navigated "page-by-page" within discord
 - Randomly determining roles (or assisting in such) before a read
