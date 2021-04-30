@@ -25,7 +25,7 @@ Once a script has been chosen, make sure everyone is inside a voice channel in d
 Once everyone is ready, the bot automatically outputs a randomized list of actors. We can either ignore this and use this as a starting signal if roles have been predetermined, or it can be useful to indicate who starts first, or even help determine who does what role if everyone is familiar with the entire script. 
 
 #### Rinse and Repeat
-Once everyone is done with the read, we can simply rinse and repeat, and use the `!random` or `!list` commands to find a new script to work on!
+Once everyone is done with the read, we can simply rinse and repeat, and use the `!random` or `!list` commands to find a new script to work on! To find out more commands to use (or any added functionality with the `!random` or `!list` commands you're already using, use the command `!help` or simply look below!
 
 ## Cheatsheet of commands
 
