@@ -11,13 +11,13 @@ Copy and paste this into your browser and add it to your desired channel.
 Actor allows for the facilitation of voice acting sessions, from fetching certain genres of scripts, to keeping track of who has read/practiced the script and is ready to start a read. To sample how the bot works, we can go ahead and try out the bot by copying and pasting the link above into a browser, and assigning the bot to a server.
 
 #### Fetching a script
-Let's start off by fetching a voice acting script for everyone to read. We can either use the commands !random, or !list, in order to populate acting scripts in the chat for everyone to select.
+Let's start off by fetching a voice acting script for everyone to read. We can either use the commands `!random`, or `!list`, in order to populate acting scripts in the chat for everyone to select.
 
 #### Readying up
-Once a script has been chosen, make sure everyone is inside a voice channel in discord. Once done, everyone in the voice channel can follow the link, and read/practice/go over the script until they feel ready to act. Once ready, actors can type !ready, and the bot will keep track of everyone who has readied up and will signal the chat once everyone is ready.
+Once a script has been chosen, make sure everyone is inside a voice channel in discord. Once done, everyone in the voice channel can follow the link, and read/practice/go over the script until they feel ready to act. Once ready, actors can type `!ready`, and the bot will keep track of everyone who has readied up and will signal the chat once everyone is ready.
 
 #### Starting the Read
 Once everyone is ready, the bot automatically outputs a randomized list of actors. We can either ignore this and use this as a starting signal if roles have been predetermined, or it can be useful to indicate who starts first, or even help determine who does what role if everyone is familiar with the entire script. 
 
 #### Rinse and Repeat
-Once everyone is done with the read, we can simply rinse and repeat, and use the !random or !list commands to find a new script to work on!
+Once everyone is done with the read, we can simply rinse and repeat, and use the `!random` or `!list` commands to find a new script to work on!
