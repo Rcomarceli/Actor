@@ -21,3 +21,28 @@ Once everyone is ready, the bot automatically outputs a randomized list of actor
 
 #### Rinse and Repeat
 Once everyone is done with the read, we can simply rinse and repeat, and use the `!random` or `!list` commands to find a new script to work on!
+
+## Cheatsheet of commands
+**Readying Up**
+`!ready` - puts you as "ready". bot decides turn order when everyone is readies up
+`!itstime` - instantly decides turn order even if some people aren't ready
+`!skip` - skips your turn if you're just sitting out this round
+`!readylist` - shows who is currently ready
+`!clear` - clears the ready list
+`!alwaysready` - puts you as "ready" every round!
+`!alwaysskip` - skips you every round! (use if just observing)
+`!blitz` - sets a time limit. forces everyone to ready upon time running out (ex: `!blitz 45` to set a 45 second timer)
+
+**Scripts**
+`!random` - give you a random script! put tags after the command to search for a random script that has those tags (ex: `!random 2person romance` will give you a random 2 person, romance script!)
+`!list` - put tags after this command to list all the scripts that match those tags! (ex: `!list funny`)
+`!listtags` - list all the tags you can use for the above commands!
+
+**Utility**
+`!roll` - get a random number from 1 to a number you put in (ex: `!roll 10`), useful for indecisive people
+`!roles [#]` - assign roles randomly! useful for long scripts. add a # to add random person to the list for uneven pairs
+`!refresh` - refreshes the script database if you add scripts in the gdrive
+`!nemesis` - chooses a random person in voice chat (useful for nemesis theme)
+
+notes:
+- `!roles [#]` is limited to adding 4 additional random people
