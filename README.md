@@ -1,6 +1,12 @@
 # actor
 Supports voice acting communities with the ability to fetch scripts from a google drive, as well as other commands to help facilitate voice acting sessions including tracking "ready" statuses and auto-determining roles!
 
+It allows for:
+- Facilitating Voice Acting sessions by keeping track of who is ready, and immediately signalling once everyone is ready to start
+- Fetching acting scripts on a google drive, either by random or in a convenient list that can be navigated "page-by-page" within discord
+- Randomly determining roles (or assisting in such) before a read
+- Certain themes like "Blitz", which implements a timer that immediately kicks off the read once the time is up!
+
 ## Try it out!
 The bot is running with a sample set of scripts and can be added via this url: 
 https://discord.com/api/oauth2/authorize?client_id=835939527196803103&permissions=1110731840&scope=bot
